@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Sol menü için esnek, sağ menü için otomatik genişlik */
+    align-items: center; /* Dikey olarak ortalama */
+    padding: 10px 20px; /* Üst ve alt 10px, sağ ve sol 20px */
+}
+
+.sol-menü a {
+    margin-right: 20px; /* Sol menüdeki linkler arasında boşluk */
+    text-decoration: none;
+    color: black; /* Yazı rengi */
+}
+
+.sag-menü {
+    display: flex; /* Sağ menüyü esnek kutu olarak ayarlama */
+    align-items: center; /* Dikey olarak ortalama */
+}
+
+.sag-menü a {
+    margin-right: 20px; /* Sağ menüdeki linkler arasında boşluk */
+    text-decoration: none;
+    color: black; /* Yazı rengi */
+}
+
+.small {
+    width: 24px; /* İkonun genişliği */
+    height: 24px; /* İkonun yüksekliği */
+    margin-right: 10px; /* İkon ile buton arasında boşluk */
+}
+
+button {
+    padding: 5px 10px; /* Buton için iç boşluk */
+    background-color:#4CAF50; /* Buton arka plan rengi */
+    color: white; /* Buton yazı rengi */
+    border: none; /* Kenar çerçevesi yok */
+    border-radius: 5px; /* Kenarları yuvarlama */
+    cursor: pointer; /* İmleci el şeklinde yapma */
+}
+
+.arama-alani {
+    position: relative; /* İçerik için göreli konum ayarı */
+    width: 580px; /* Arama çubuğunun kapsayıcı genişliği */
+    display: flex; /* İçindeki elemanları hizalamak için flexbox kullan */
+    align-items: center; /* Dikey hizalama */
+}
+
+.arama-cubugu {
+    width: 700%; /* Arama çubuğunun kapsayıcıya göre genişliği */
+    height: 40px; /* Arama çubuğunun yüksekliği */
+    padding-right: 40px; /* Sağda mikrofon simgesi için boşluk */
+    padding-left: 10px; /* Soldan iç boşluk */
+    font-size: 16px; /* Yazı boyutu */
+    border: 2px solid #ccc; /* Kenar rengi */
+    border-radius: 20px; /* Kenarları yuvarlama */
+    outline: none; /* Odaklandığında kenarlık görünmesini engelle */
+    transition: border-color 0.3s; /* Kenar rengi geçiş efekti */
+    box-sizing: border-box; /* İç boşlukları hesaba kat */
+}
+
+.arama-cubugu:focus {
+    border-color: #4CAF50; /* Odaklandığında kenar rengi değişimi */
+}
+
+/* Mikrofon simgesi için ayarlar */
+.mikrofon {
+    position: absolute; /* Mutlak konumlandır */
+    right: 10px; /* Sağdan uzaklık */
+    width: 24px; /* Sembol genişliği */
+    height: 24px; /* Sembol yüksekliği */
+    cursor: pointer; /* Tıklanabilir işaretçi */
+}
+.small{
+    width: 2%; /* Genişliğini yüzde olarak ayarlama */
+            height: auto; /* Orantıyı koruma */
+}
+
+
+.margin{
+    margin-left:650px;
+    margin-top: 200px;
+}
+.margin2{
+    margin-top: 20px;
+    margin-left:500px;
+}
+.margin3{
+    margin-left: 660px;
+    margin-top:45px;
+}
+
+
+.header1 {
+    display: grid;
+     /* Sol menü için esnek, sağ menü için otomatik genişlik */
+    align-items: center; /* Dikey olarak ortalama */
+    padding: 3px 3px; /* Üst ve alt 10px, sağ ve sol 20px */
+    background-color: #f8f8f8; /* Arka plan rengi */
+}
+
+.sol-menü1 a {
+    margin-right: 20px; /* Sol menüdeki linkler arasında boşluk */
+    text-decoration: none;
+    color: black; /* Yazı rengi */
+    font-size: 16px;
+}
+
+.sag-menü1 {
+    display: flex; /* Sağ menüyü esnek kutu olarak ayarlama */
+    align-items: center; /* Dikey olarak ortalama */
+}
+
+.sag-menü1 a {
+    margin-right: 20px; /* Sağ menüdeki linkler arasında boşluk */
+    text-decoration: none;
+    color: black; /* Yazı rengi */
+    font-size: 16px;
+}
+
+
+.margin4{
+    margin-top:400px;
+}
+
+
+
+
+
